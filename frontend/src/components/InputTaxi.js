@@ -36,14 +36,14 @@ const InputTaxi = () => {
     return (
         <Fragment>
 
-            <nav class="navbar navbar-expand-sm bg-light navbar-dark justify-content-center">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
                 <span class="navbar-text">
                     SEBENZA Wifi 
                 </span>
             </nav>
 
         
-        <h2>Add new Taxi information</h2>
+        <h2>Add new taxi user</h2>
         <form className="d-flex mt-5" onSubmit={onSubmitForm}>    
             <div id="form"> 
                 <div class="form-group">

@@ -32,7 +32,7 @@ const ListTaxi = () => {
     
     return (
         <Fragment>
-            <h2>List of taxi drivers</h2>
+            <h2>Taxi information list</h2>
 
             <table className="table mt-5 text-center">
                 <thead>

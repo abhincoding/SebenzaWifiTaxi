@@ -7,6 +7,13 @@ body {
   }
   h2{
       text-align: center;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      width: 80%;
+      margin-bottom: 0em;
+      border: 2px solid rgb(31, 113, 138);
+      border-radius: 12px;
   }
 
   span{
@@ -19,6 +26,7 @@ body {
     background-color: #f2f2f2;
     padding: 20px;
     width: 100%;
+    margin-top: 0%;
   }
 
 input[type=submit] {
