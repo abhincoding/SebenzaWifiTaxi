@@ -5,8 +5,13 @@ body {
       sans-serif;
 
   }
-  h1,h2{
-      align-content: center;
+  h2{
+      text-align: center;
+  }
+
+  span{
+      font-size: 5em;
+      color:black
   }
 
   #form {

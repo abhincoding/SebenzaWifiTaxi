@@ -35,9 +35,13 @@ const InputTaxi = () => {
     };
     return (
         <Fragment>
-        <h1 className="text-center mt-5">
-            SebenzaWifi Taxi dashboard
-        </h1> 
+
+            <nav class="navbar navbar-expand-sm bg-light navbar-dark justify-content-center">
+                <span class="navbar-text">
+                    SEBENZA Wifi 
+                </span>
+            </nav>
+
         
         <h2>Add new Taxi information</h2>
         <form className="d-flex mt-5" onSubmit={onSubmitForm}>    
