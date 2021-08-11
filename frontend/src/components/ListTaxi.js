@@ -5,7 +5,7 @@ const ListTaxi = () => {
     const [taxis, setTaxis] = useState([]);
     const deleteTaxi = async id =>{
         try {
-            const deleteTaxi= await fetch(`http://localhost:5000/taxi/${id}`,{
+            const deleteTaxi= await fetch(`/taxi/${id}`,{
                 method: "DELETE"
             });
             setTaxis(taxis.filter(taxis=> taxis.id !== id))

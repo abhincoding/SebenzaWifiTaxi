@@ -22,7 +22,6 @@ const EditTaxi = ({taxis}) => {
 
     const onSubmitForm= async(e) =>{
         e.preventDefault();
-        console.log("edit on submit form=new location: "+data.locationzone);
         try {
 
             const body = {data};
