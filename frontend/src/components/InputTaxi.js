@@ -42,25 +42,30 @@ const InputTaxi = () => {
         <h2>Add new Taxi information</h2>
         <form className="d-flex mt-5" onSubmit={onSubmitForm}>    
             <div id="form"> 
-                <label>
-                    Full name
+                <div class="form-group">
+                <label for="inputTaxi" class="form-label">Full name</label>
                 <input id ="name" maxLength="50" type="text" required placeholder="Full Name" className="form-control" value={data.name} onChange={(e) => handleChange(e)}/>
-                </label>
-                
-                <label> number plate
+                </div>
+
+                <div class="form-group">
+                <label for="inputTaxi" class="form-label">Number plate</label>
                 <input id="numberplate" maxLength="9" type="text" required placeholder="Number plate" className="form-control" value={data.numberplate} onChange={(e) => handleChange(e)}/>
-                </label>
-
-                <label> Router ID
-                <input id="routerid" maxLength="10" type="text" required placeholder="Router ID" className="form-control" value={data.routerid} onChange={(e) => handleChange(e)}/>
-                </label>
-
-                <label> Location zone
-                <input id="locationzone" maxLength="50" type="text" required placeholder="Location zone" className="form-control" value={data.locationzone} onChange={(e) => handleChange(e)}/>
-                </label>
                 </div>
                 
-            <button onSubmit={onSubmitForm} className="btn btn-success">Add</button>
+                <div class="form-group">
+                <label for="inputTaxi" class="form-label">Router ID</label>
+                <input id="routerid" maxLength="10" type="text" required placeholder="Router ID" className="form-control" value={data.routerid} onChange={(e) => handleChange(e)}/>
+                </div>
+                
+                <div class="form-group">
+                <label for="inputTaxi" class="form-label">Location zone</label>
+                <input id="locationzone" maxLength="50" type="text" required placeholder="Location zone" className="form-control" value={data.locationzone} onChange={(e) => handleChange(e)}/>
+                </div>
+
+                
+                </div>
+                
+            <button onSubmit={onSubmitForm} className="btn btn-success btn-sm">Add</button>
         </form>
         &nbsp;
         </Fragment>
@@ -68,3 +73,4 @@ const InputTaxi = () => {
 };
 
 export default InputTaxi;
+
